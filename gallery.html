@@ -3,68 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>📸 Галерея Няшності - Собаки - це Няшно</title>
+    <title>📸 Галерея котів</title>
     <link rel="stylesheet" href="css/style.css" />
-    <style>
-      .gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-        padding: 20px;
-      }
-      .gallery-item {
-        border: 1px solid #ddd;
-        padding: 10px;
-        text-align: center;
-      }
-      .gallery-item img {
-        width: 100%;
-        height: auto;
-        display: block;
-        border-radius: 8px;
-      }
-    </style>
   </head>
   <body>
     <header>
+      <h1>🖼️ Насолоджуйтесь красою!</h1>
       <nav>
-        <ul>
-          <li><a href="index.html">Головна</a></li>
-          <li><a href="about.html">Чому вони няшні?</a></li>
-          <li><a href="services.html">Послуги</a></li>
-          <li><a href="gallery.html">Галерея Няшності</a></li>
-          <li><a href="contacts.html">Контакти</a></li>
-        </ul>
+        <a href="index.html">Головна</a> | <a href="about.html">Про котів</a> |
+        <a href="services.html">Догляд</a> |
+        <a href="gallery.html">Галерея</a> |
+        <a href="contacts.html">Контакти</a>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h1>Наш Каталог Чарівності!</h1>
-        <p>
-          Погляньте на ці неймовірно милі мордочки. Це лише мала частина того,
-          наскільки собаки можуть бути няшними!
-        </p>
-
-        <div class="gallery-grid">
-          <div class="gallery-item">
-            <img src="images/dog1.jpg" alt="Няшний песик 1" />
-            <p>Маленький дослідник</p>
-          </div>
-          <div class="gallery-item">
-            <img src="images/dog2.jpg" alt="Няшний песик 2" />
-            <p>Майстер сну</p>
-          </div>
-          <div class="gallery-item">
-            <img src="images/dog3.jpg" alt="Няшний песик 3" />
-            <p>Щасливий хвіст</p>
-          </div>
-        </div>
-      </section>
+      <h2>Наші пухнасті моделі</h2>
+      <p>Тут ви можете побачити найкрасивіших котів різних порід:</p>
+      <img
+        src="images/fluffy_cat.jpg"
+        alt="Пухнастий кіт"
+        class="cat-gallery-img"
+      />
+      <img
+        src="images/sleepy_cat.jpg"
+        alt="Сплячий кіт"
+        class="cat-gallery-img"
+      />
+      <p>
+        <em
+          >(Створіть ці файли зображень у папці `/images/` для коректного
+          відображення)</em
+        >
+      </p>
     </main>
 
     <footer>
-      <p>&copy; 2025 Світ Собачої Няшності. Всі права захищені (і виляють).</p>
+      <p>&copy; 2025 Світ Котів. Всі права захищені.</p>
     </footer>
   </body>
 </html>
